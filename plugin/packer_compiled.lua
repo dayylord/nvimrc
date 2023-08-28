@@ -149,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
+  ["vim-arduino"] = {
+    loaded = true,
+    path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/vim-arduino",
+    url = "https://github.com/stevearc/vim-arduino"
+  },
   ["vim-floaterm"] = {
     loaded = true,
     path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/vim-floaterm",
