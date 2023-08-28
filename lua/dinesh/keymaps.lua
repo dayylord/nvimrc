@@ -12,7 +12,7 @@ map('i', 'jj', '<esc>')
 map('n', '<leader>q', ':q!<cr>')
 map('n', '<leader>w', ':w<cr>')
 
-map('n', '<leader>pv', ':ex<cr>')
+map('n', '<leader>pv', ':Ex<cr>')
 map('n', '<leader>so', ':so ~/.config/nvim/init.lua<CR>', {silent = true})
 
 --moves

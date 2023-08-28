@@ -36,6 +36,7 @@ return require('packer').startup(function(use)
     use { 'ranjithshegde/ccls.nvim' }
 
     use { 'stevearc/vim-arduino' }
+    use { 'preservim/nerdtree' }
 
 
 
