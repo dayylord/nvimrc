@@ -1,6 +1,8 @@
 require("dinesh.keymaps")
 require("dinesh.plugin")
 require("dinesh.options")
+require("dinesh.dependency")
+
 
 
 
