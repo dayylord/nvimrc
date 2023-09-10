@@ -1,17 +1,19 @@
 return require('packer').startup(function(use)
 
    use 'wbthomason/packer.nvim'
-   
+
    use 'folke/tokyonight.nvim'
 
    use 'tpope/vim-surround'
+
+   use 'tpope/vim-fugitive'
 
    use 'voldikss/vim-floaterm'
 
    use 'ggandor/lightspeed.nvim'
 
    use 'nvim-lua/plenary.nvim'
- 
+
    use 'nvim-telescope/telescope.nvim'
 
    use 'ThePrimeagen/harpoon'
@@ -33,7 +35,6 @@ return require('packer').startup(function(use)
         {'L3MON4D3/LuaSnip'},     -- Required
       }
     }
-    use { 'ranjithshegde/ccls.nvim' }
 
     use { 'stevearc/vim-arduino' }
 

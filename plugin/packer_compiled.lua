@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["ccls.nvim"] = {
-    loaded = true,
-    path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/ccls.nvim",
-    url = "https://github.com/ranjithshegde/ccls.nvim"
-  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -158,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   },
   ["vim-surround"] = {
     loaded = true,
