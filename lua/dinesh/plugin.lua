@@ -1,5 +1,18 @@
 return require('packer').startup(function(use)
 
+   use 'ellisonleao/gruvbox.nvim'
+
+   use {
+       'nvim-tree/nvim-tree.lua',
+       requires = {
+           'nvim-tree/nvim-web-devicons', -- optional
+       },
+   }
+
+   use 'sainnhe/gruvbox-material'
+
+   use 'evanleck/vim-svelte'
+
    use 'wbthomason/packer.nvim'
 
    use 'folke/tokyonight.nvim'

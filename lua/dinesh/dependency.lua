@@ -31,6 +31,10 @@ M.replace = function()
 
 end
 
+M.lsper = function ()
+    print("do nothing")
+
+end
 
 
 return M

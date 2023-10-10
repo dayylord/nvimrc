@@ -84,6 +84,16 @@ _G.packer_plugins = {
     path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -163,6 +173,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
+  },
+  ["vim-svelte"] = {
+    loaded = true,
+    path = "/home/dinesh/.local/share/nvim/site/pack/packer/start/vim-svelte",
+    url = "https://github.com/evanleck/vim-svelte"
   }
 }
 
