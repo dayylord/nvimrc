@@ -2,7 +2,6 @@ require("dinesh.keymaps")
 require("dinesh.plugin")
 require("dinesh.options")
 require("dinesh.dependency")
-require("exp")
 
 
 vim.opt.termguicolors = false
