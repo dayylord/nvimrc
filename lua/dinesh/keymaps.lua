@@ -20,7 +20,6 @@ map('n', 'S', 'd$')
 map('n', 'Y', 'y$')
 map('n', 'D', 'dd')
 
-map('n', '<leader>pv', ':Ex<cr>')
 map('n', '<leader>so', ':so ~/.config/nvim/init.lua<CR>', {silent = true})
 
 --moves
