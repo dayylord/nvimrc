@@ -30,6 +30,7 @@ vim.keymap.set("v", "J", ": m +1<CR>gv=gv")
 vim.keymap.set("v", "p", "\"_dp")
 vim.keymap.set("v", "<leader>y", "\"cy")
 vim.keymap.set("n", "<leader>c", "\"cp")
+vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
 
 --comment
