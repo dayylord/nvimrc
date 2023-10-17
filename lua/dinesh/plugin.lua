@@ -49,6 +49,10 @@ return require('packer').startup(function(use)
       }
     }
 
+    use "rafamadriz/friendly-snippets"
+
+    use "saadparwaiz1/cmp_luasnip"
+
     use { 'stevearc/vim-arduino' }
 
 
