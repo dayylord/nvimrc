@@ -32,7 +32,8 @@ vim.keymap.set("v", "<leader>y", "\"cy")
 vim.keymap.set("n", "<leader>c", "\"cp")
 vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 
+--cpp exec
 
---comment
+vim .keymap.set('n', '<leader>5', ':lua M.cppiler()<CR>')
 
 

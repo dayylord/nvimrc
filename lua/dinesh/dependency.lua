@@ -36,5 +36,15 @@ M.lsper = function ()
 
 end
 
+M.cppiler = function ()
+    if (vim.fn.expand("%:e") == 'cpp')  then
+
+        print(vim.fn.expand("%:r"))
+        vim.fn.execute("!makes.sh expand(%:r:h)")
+    else
+        print('you can\'t call makes on a '..vim.fn.expand("%:e")..' file')
+    end
+end
+
 
 return M
